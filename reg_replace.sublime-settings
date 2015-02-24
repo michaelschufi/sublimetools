@@ -1,0 +1,20 @@
+{
+	"use_sub_notify": false,
+	"replacements": {
+		"add_space_to_opening_brackets": {
+			"find": "(\\((?!\\s))",
+			"replace": "\\1 ",
+			"greedy": true
+		},
+		"add_space_to_closing_brackets": {
+			"find": "(\\S)(\\))",
+			"replace": "\\1 \\2",
+			"greedy": true
+		},
+		"remove_space_between_brackets": {
+			"find": "(\\()\\s{1,}\\)",
+			"replace": "()",
+			"greedy": true
+		}
+	}
+}

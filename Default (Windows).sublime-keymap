@@ -1,0 +1,12 @@
+[
+	{ "keys": ["ctrl+shift+,"], 
+		"command": "reg_replace", "args": { "replacements": [
+			"add_space_to_opening_brackets",
+			"add_space_to_closing_brackets",
+			"remove_space_between_brackets"
+		] }
+	},
+	{ "keys": ["ctrl+shift+."], "command": "run_macro_file", "args": { "file": "res://Packages/User/identation_macro.sublime-macro" } },
+	{ "keys": ["ctrl+,"], "command": "run_macro_file", "args": { "file": "res://Packages/User/add_semicolon.sublime-macro" } },
+	{ "keys": ["shift+space"], "command": "run_macro_file", "args": { "file": "res://Packages/User/cool_brackets.sublime-macro" } }
+]
